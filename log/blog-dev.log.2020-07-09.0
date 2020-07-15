@@ -1,0 +1,255 @@
+2020-07-09 19:46:40.143  INFO 19252 --- [restartedMain] com.zy.FirstspringbootApplication        : Starting FirstspringbootApplication on DESKTOP-PRH2MHB with PID 19252 (D:\eclipse-workspace\firstspringboot\target\classes started by dell in D:\eclipse-workspace\firstspringboot)
+2020-07-09 19:46:40.151  INFO 19252 --- [restartedMain] com.zy.FirstspringbootApplication        : The following profiles are active: dev
+2020-07-09 19:46:40.208  INFO 19252 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 19:46:40.209  INFO 19252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 19:46:40.210  INFO 19252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 19:46:40.882  INFO 19252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 19:46:40.959  INFO 19252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 5 JPA repository interfaces.
+2020-07-09 19:46:41.619  INFO 19252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 19:46:41.628  INFO 19252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 19:46:41.629  INFO 19252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 19:46:41.698  INFO 19252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 19:46:41.698  INFO 19252 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1488 ms
+2020-07-09 19:46:41.843  INFO 19252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 19:46:41.883  INFO 19252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 19:46:41.957  INFO 19252 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 19:46:42.031  INFO 19252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 19:46:42.498  INFO 19252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 19:46:42.523  INFO 19252 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 19:46:43.642  INFO 19252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 19:46:43.650  INFO 19252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 19:46:43.733  INFO 19252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 19:46:44.654  WARN 19252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 19:46:44.935  INFO 19252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 19:46:45.028  INFO 19252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 19:46:45.373  INFO 19252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 19:46:45.375  INFO 19252 --- [restartedMain] com.zy.FirstspringbootApplication        : Started FirstspringbootApplication in 5.613 seconds (JVM running for 6.613)
+2020-07-09 19:47:08.303  INFO 19252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 19:47:08.305  INFO 19252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 19:47:08.327  INFO 19252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-07-09 19:47:08.385  INFO 19252 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 19:47:08.615  INFO 19252 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 19:47:10.912  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:10.923  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:47:21.480  INFO 19252 --- [http-nio-8080-exec-6] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/blog/18', ip='127.0.0.1', classMethod='com.zy.web.IndexController.blog', args=[18, {}]}
+2020-07-09 19:47:21.663  INFO 19252 --- [http-nio-8080-exec-6] com.zy.aspect.LogAspect                  : Result : blog
+2020-07-09 19:47:22.315  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:22.326  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:47:35.510  INFO 19252 --- [http-nio-8080-exec-2] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zy.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-09 19:47:35.558  INFO 19252 --- [http-nio-8080-exec-2] com.zy.aspect.LogAspect                  : Result : types
+2020-07-09 19:47:36.311  INFO 19252 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:36.327  INFO 19252 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:47:40.688  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zy.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-09 19:47:40.744  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : tags
+2020-07-09 19:47:41.661  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:41.680  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:47:45.229  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zy.web.ArchivesShowController.archives', args=[{}]}
+2020-07-09 19:47:45.274  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : archives
+2020-07-09 19:47:45.993  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:46.012  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:47:47.090  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.zy.web.AboutShowController.about', args=[]}
+2020-07-09 19:47:47.095  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : about
+2020-07-09 19:47:47.716  INFO 19252 --- [http-nio-8080-exec-6] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:47.730  INFO 19252 --- [http-nio-8080-exec-6] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:47:56.763  INFO 19252 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 19:47:56.790  INFO 19252 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 19:47:57.486  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:47:57.498  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:00.259  INFO 19252 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/tags/1', ip='127.0.0.1', classMethod='com.zy.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-07-09 19:48:00.287  INFO 19252 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Result : tags
+2020-07-09 19:48:01.001  INFO 19252 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:48:01.015  INFO 19252 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:09.195  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zy.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-09 19:48:09.211  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : types
+2020-07-09 19:48:09.871  INFO 19252 --- [http-nio-8080-exec-5] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:48:09.890  INFO 19252 --- [http-nio-8080-exec-5] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:10.390  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zy.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-09 19:48:10.419  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : tags
+2020-07-09 19:48:11.007  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:48:11.021  INFO 19252 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:11.728  INFO 19252 --- [http-nio-8080-exec-2] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zy.web.ArchivesShowController.archives', args=[{}]}
+2020-07-09 19:48:11.751  INFO 19252 --- [http-nio-8080-exec-2] com.zy.aspect.LogAspect                  : Result : archives
+2020-07-09 19:48:12.312  INFO 19252 --- [http-nio-8080-exec-4] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:48:12.325  INFO 19252 --- [http-nio-8080-exec-4] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:12.976  INFO 19252 --- [http-nio-8080-exec-5] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.zy.web.AboutShowController.about', args=[]}
+2020-07-09 19:48:12.976  INFO 19252 --- [http-nio-8080-exec-5] com.zy.aspect.LogAspect                  : Result : about
+2020-07-09 19:48:13.537  INFO 19252 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:48:13.552  INFO 19252 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:15.005  INFO 19252 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 19:48:15.027  INFO 19252 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 19:48:15.641  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 19:48:15.667  INFO 19252 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 19:48:36.476  INFO 19252 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 19:48:36.479  INFO 19252 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 19:48:36.480  INFO 19252 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 19:48:36.482  INFO 19252 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 19:48:36.492  INFO 19252 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 19:48:36.510  INFO 19252 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 22:35:19.505  INFO 23820 --- [restartedMain] com.zy.FirstspringbootApplication        : Starting FirstspringbootApplication on DESKTOP-PRH2MHB with PID 23820 (D:\eclipse-workspace\firstspringboot\target\classes started by dell in D:\eclipse-workspace\firstspringboot)
+2020-07-09 22:35:19.508  INFO 23820 --- [restartedMain] com.zy.FirstspringbootApplication        : The following profiles are active: dev
+2020-07-09 22:35:19.545  INFO 23820 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 22:35:19.545  INFO 23820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 22:35:19.545  INFO 23820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 22:35:20.176  INFO 23820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 22:35:20.263  INFO 23820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 5 JPA repository interfaces.
+2020-07-09 22:35:20.993  INFO 23820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 22:35:21.004  INFO 23820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 22:35:21.005  INFO 23820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 22:35:21.094  INFO 23820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 22:35:21.095  INFO 23820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1550 ms
+2020-07-09 22:35:21.279  INFO 23820 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 22:35:21.368  INFO 23820 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 22:35:21.511  INFO 23820 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 22:35:21.623  INFO 23820 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 22:35:21.994  INFO 23820 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 22:35:22.014  INFO 23820 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 22:35:23.424  INFO 23820 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 22:35:23.430  INFO 23820 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:35:23.509  INFO 23820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 22:35:24.541  WARN 23820 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 22:35:24.826  INFO 23820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:35:24.962  INFO 23820 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 22:35:25.360  INFO 23820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 22:35:25.363  INFO 23820 --- [restartedMain] com.zy.FirstspringbootApplication        : Started FirstspringbootApplication in 6.308 seconds (JVM running for 7.117)
+2020-07-09 22:35:31.594  INFO 23820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 22:35:31.596  INFO 23820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 22:35:31.610  INFO 23820 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-07-09 22:35:31.641  INFO 23820 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 22:35:31.782  INFO 23820 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 22:35:32.835  INFO 23820 --- [http-nio-8080-exec-2] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:35:32.847  INFO 23820 --- [http-nio-8080-exec-2] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:43:41.011  INFO 23820 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 22:43:41.014  INFO 23820 --- [RMI TCP Connection(18)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:43:41.016  INFO 23820 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:43:41.021  INFO 23820 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 22:43:41.033  INFO 23820 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 22:50:05.603  INFO 21348 --- [restartedMain] com.zy.FirstspringbootApplication        : Starting FirstspringbootApplication on DESKTOP-PRH2MHB with PID 21348 (D:\eclipse-workspace\firstspringboot\target\classes started by dell in D:\eclipse-workspace\firstspringboot)
+2020-07-09 22:50:05.604  INFO 21348 --- [restartedMain] com.zy.FirstspringbootApplication        : The following profiles are active: dev
+2020-07-09 22:50:05.639  INFO 21348 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 22:50:05.640  INFO 21348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 22:50:05.640  INFO 21348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 22:50:06.919  INFO 21348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 22:50:07.062  INFO 21348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131ms. Found 5 JPA repository interfaces.
+2020-07-09 22:50:07.934  INFO 21348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 22:50:07.942  INFO 21348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 22:50:07.942  INFO 21348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 22:50:08.045  INFO 21348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 22:50:08.045  INFO 21348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2405 ms
+2020-07-09 22:50:08.269  INFO 21348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 22:50:08.307  INFO 21348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 22:50:08.384  INFO 21348 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 22:50:08.454  INFO 21348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 22:50:08.718  INFO 21348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 22:50:08.731  INFO 21348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 22:50:09.480  INFO 21348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 22:50:09.489  INFO 21348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:50:09.569  INFO 21348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 22:50:10.526  WARN 21348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 22:50:10.754  INFO 21348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:50:10.842  INFO 21348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 22:50:11.223  INFO 21348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 22:50:11.227  INFO 21348 --- [restartedMain] com.zy.FirstspringbootApplication        : Started FirstspringbootApplication in 6.057 seconds (JVM running for 6.996)
+2020-07-09 22:50:23.362  INFO 21348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 22:50:23.362  INFO 21348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 22:50:23.376  INFO 21348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-07-09 22:50:23.402  INFO 21348 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 22:50:23.526  INFO 21348 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 22:50:24.651  INFO 21348 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:50:24.662  INFO 21348 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:50:50.154  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 22:50:50.156  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:50:50.158  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:50:50.163  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 22:50:50.169  INFO 21348 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 22:52:10.841  INFO 22360 --- [restartedMain] com.zy.FirstspringbootApplication        : Starting FirstspringbootApplication on DESKTOP-PRH2MHB with PID 22360 (D:\eclipse-workspace\firstspringboot\target\classes started by dell in D:\eclipse-workspace\firstspringboot)
+2020-07-09 22:52:10.842  INFO 22360 --- [restartedMain] com.zy.FirstspringbootApplication        : The following profiles are active: dev
+2020-07-09 22:52:10.869  INFO 22360 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 22:52:10.870  INFO 22360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 22:52:10.870  INFO 22360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 22:52:11.359  INFO 22360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 22:52:11.434  INFO 22360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 5 JPA repository interfaces.
+2020-07-09 22:52:11.957  INFO 22360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 22:52:11.964  INFO 22360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 22:52:11.964  INFO 22360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 22:52:12.038  INFO 22360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 22:52:12.038  INFO 22360 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1168 ms
+2020-07-09 22:52:12.184  INFO 22360 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 22:52:12.219  INFO 22360 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 22:52:12.289  INFO 22360 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 22:52:12.356  INFO 22360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 22:52:12.621  INFO 22360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 22:52:12.636  INFO 22360 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 22:52:13.458  INFO 22360 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 22:52:13.465  INFO 22360 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:52:13.544  INFO 22360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 22:52:14.421  WARN 22360 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 22:52:14.697  INFO 22360 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:52:14.803  INFO 22360 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 22:52:15.174  INFO 22360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 22:52:15.177  INFO 22360 --- [restartedMain] com.zy.FirstspringbootApplication        : Started FirstspringbootApplication in 4.642 seconds (JVM running for 5.323)
+2020-07-09 22:52:21.754  INFO 22360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 22:52:21.755  INFO 22360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 22:52:21.766  INFO 22360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-07-09 22:52:21.790  INFO 22360 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 22:52:21.881  INFO 22360 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 22:52:24.457  INFO 22360 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:52:24.471  INFO 22360 --- [http-nio-8080-exec-8] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:53:29.557  INFO 22360 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 22:53:29.560  INFO 22360 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:53:29.561  INFO 22360 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:53:29.565  INFO 22360 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 22:53:29.572  INFO 22360 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-09 22:54:19.879  INFO 23248 --- [restartedMain] com.zy.FirstspringbootApplication        : Starting FirstspringbootApplication on DESKTOP-PRH2MHB with PID 23248 (D:\eclipse-workspace\firstspringboot\target\classes started by dell in D:\eclipse-workspace\firstspringboot)
+2020-07-09 22:54:19.882  INFO 23248 --- [restartedMain] com.zy.FirstspringbootApplication        : The following profiles are active: dev
+2020-07-09 22:54:19.926  INFO 23248 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\dell\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/dell/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-09 22:54:19.926  INFO 23248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-09 22:54:19.927  INFO 23248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-09 22:54:20.703  INFO 23248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-09 22:54:20.815  INFO 23248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 5 JPA repository interfaces.
+2020-07-09 22:54:21.457  INFO 23248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-09 22:54:21.463  INFO 23248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-09 22:54:21.463  INFO 23248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-09 22:54:21.536  INFO 23248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-09 22:54:21.536  INFO 23248 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1609 ms
+2020-07-09 22:54:21.685  INFO 23248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-09 22:54:21.732  INFO 23248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-09 22:54:21.805  INFO 23248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-09 22:54:21.876  INFO 23248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-09 22:54:22.134  INFO 23248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-09 22:54:22.148  INFO 23248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-09 22:54:22.948  INFO 23248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-09 22:54:22.955  INFO 23248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:54:23.031  INFO 23248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-09 22:54:24.020  WARN 23248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-09 22:54:24.280  INFO 23248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:54:24.398  INFO 23248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-09 22:54:24.779  INFO 23248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-09 22:54:24.784  INFO 23248 --- [restartedMain] com.zy.FirstspringbootApplication        : Started FirstspringbootApplication in 5.405 seconds (JVM running for 6.345)
+2020-07-09 22:54:40.469  INFO 23248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-09 22:54:40.470  INFO 23248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-09 22:54:40.494  INFO 23248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-07-09 22:54:40.549  INFO 23248 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zy.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-09 22:54:40.780  INFO 23248 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : index
+2020-07-09 22:54:42.566  INFO 23248 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:54:42.577  INFO 23248 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:54:57.319  INFO 23248 --- [http-nio-8080-exec-6] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zy.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-09 22:54:57.356  INFO 23248 --- [http-nio-8080-exec-6] com.zy.aspect.LogAspect                  : Result : types
+2020-07-09 22:54:58.061  INFO 23248 --- [http-nio-8080-exec-4] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:54:58.080  INFO 23248 --- [http-nio-8080-exec-4] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:55:00.593  INFO 23248 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zy.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-09 22:55:00.645  INFO 23248 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : tags
+2020-07-09 22:55:01.291  INFO 23248 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:55:01.303  INFO 23248 --- [http-nio-8080-exec-1] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:55:03.093  INFO 23248 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zy.web.ArchivesShowController.archives', args=[{}]}
+2020-07-09 22:55:03.140  INFO 23248 --- [http-nio-8080-exec-10] com.zy.aspect.LogAspect                  : Result : archives
+2020-07-09 22:55:03.701  INFO 23248 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:55:03.719  INFO 23248 --- [http-nio-8080-exec-3] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:55:04.761  INFO 23248 --- [http-nio-8080-exec-4] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.zy.web.AboutShowController.about', args=[]}
+2020-07-09 22:55:04.765  INFO 23248 --- [http-nio-8080-exec-4] com.zy.aspect.LogAspect                  : Result : about
+2020-07-09 22:55:05.338  INFO 23248 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Request:{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='com.zy.web.IndexController.newblogs', args=[{}]}
+2020-07-09 22:55:05.350  INFO 23248 --- [http-nio-8080-exec-7] com.zy.aspect.LogAspect                  : Result : _fragments :: newblogList
+2020-07-09 22:56:18.097  INFO 23248 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-09 22:56:18.100  INFO 23248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-09 22:56:18.102  INFO 23248 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-09 22:56:18.106  INFO 23248 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-09 22:56:18.116  INFO 23248 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
